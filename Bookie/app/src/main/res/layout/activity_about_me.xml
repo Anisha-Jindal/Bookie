@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:cardCornerRadius="10dp"
+    app:cardBackgroundColor="#1E4A96"
+    tools:context=".AboutMe">
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/wallpaper4"
+    android:layout_margin="10dp"
+    >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="About Me"
+        android:textStyle="bold"
+        android:textColor="#1E4A96"
+        android:textSize="20dp"
+        android:layout_marginTop="7dp"
+        android:layout_marginHorizontal="7dp"
+    />
+    <EditText
+        android:hint="Your Name"
+        android:id="@+id/et_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:editable="false"
+        android:layout_marginTop="5dp"
+        android:layout_marginHorizontal="5dp"/>
+
+    <EditText
+        android:inputType="none"
+        android:hint="User Email Address"
+        android:id="@+id/et_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginHorizontal="5dp"
+        />
+    <EditText
+        android:hint="User Password"
+        android:id="@+id/et_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginHorizontal="5dp"
+        />
+
+    <EditText
+        android:inputType="phone"
+        android:hint="Mobile No"
+        android:id="@+id/et_mob"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginHorizontal="5dp"
+        />
+    <EditText
+        android:hint="Collage"
+        android:id="@+id/et_collage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginHorizontal="5dp"
+        />
+    <EditText
+        android:hint="Address"
+        android:id="@+id/et_address"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginHorizontal="5dp"
+        />
+
+    <Button
+        android:id="@+id/btn_edit"
+        android:layout_margin="20dp"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:text="Edit Information"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/loginfield"
+        android:backgroundTint="#1E4A96"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        android:textSize="18dp"
+        android:textAllCaps="false"
+        android:padding="8dp"
+        android:layout_marginHorizontal="5dp"
+        android:layout_marginTop="10dp"
+        />
+
+
+
+
+</LinearLayout>
+</android.support.v7.widget.CardView>

@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MainActivity"
+        android:background="@drawable/wallpaper"
+        android:alpha="1"
+        android:weightSum="10"
+        android:orientation="vertical">
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_marginHorizontal="20dp"
+                android:layout_marginTop="80dp"
+                android:layout_marginBottom="50dp"
+                >
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    app:cardCornerRadius="30dp"
+                    android:elevation="@dimen/cardview_default_elevation"
+                    android:alpha=".4"
+                    android:visibility="visible"
+                    android:background="#C8F7DF"
+                    >
+
+                </android.support.v7.widget.CardView>
+            </LinearLayout>
+        </FrameLayout>
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:alpha="1"
+                android:layout_gravity="center"
+                android:layout_marginHorizontal="20dp"
+                android:layout_marginTop="40dp"
+                android:layout_marginBottom="50dp"
+                android:background="@drawable/mycard"
+                android:paddingVertical="20dp"
+                android:paddingHorizontal="20dp"
+                >
+                <ImageView
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:src="@drawable/baseline_account_circle_white_18dp"
+                    android:alpha="1"
+                    android:layout_gravity="center_horizontal"
+                    android:cropToPadding="true"
+                    android:layout_marginTop="5dp"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Sign In"
+                    android:textColor="#ffffff"
+                    android:textSize="40sp"
+                    android:layout_gravity="center_horizontal"
+                    android:fontFamily="sans-serif-medium"/>
+                <EditText
+                    android:id="@+id/login_email"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Email"
+                    android:background="@drawable/loginfield"
+                    android:layout_marginTop="50dp"
+                    android:textSize="20sp"
+                    android:inputType="textEmailAddress"
+                    android:drawableStart="@drawable/baseline_email_black_18dp"
+                    android:drawableTint="#505066"
+                    android:drawablePadding="3dp"
+                    />
+                <EditText
+                    android:id="@+id/login_password"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Password"
+
+                    android:background="@drawable/loginfield"
+                    android:layout_marginTop="25dp"
+                    android:textSize="20sp"
+                    android:inputType="textPassword"
+                    android:drawableStart="@drawable/baseline_lock_black_18dp"
+                    android:drawablePadding="2dp"
+                    android:drawableTint="#505066"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:textSize="16sp"
+                    android:text="Forgot Password?"
+                    android:textColor="#ffffff"
+                    android:textStyle="bold"
+
+                    android:layout_gravity="center_horizontal"
+                    />
+                <Button
+                    android:id="@+id/login_button"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/loginfield"
+                    android:layout_marginTop="8dp"
+                    android:text="Login"
+                    android:textAllCaps="false"
+                    android:fontFamily="sans-serif"
+                    android:textSize="20sp"
+                    android:textColor="#ffffff"
+                    android:backgroundTint="#081C97"
+                    android:backgroundTintMode="multiply"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:textSize="15sp"
+                    android:text="New User?"
+                    android:textColor="#ffffff"
+                    android:textStyle="bold"
+                    android:layout_gravity="center_horizontal"
+                    />
+                <Button
+                    android:id="@+id/signup_button"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/loginfield"
+                    android:layout_marginTop="5dp"
+                    android:text="Sign Up"
+                    android:textAllCaps="false"
+                    android:fontFamily="sans-serif"
+                    android:textSize="20sp"
+                    android:textColor="#ffffff"
+                    android:backgroundTint="#1F2961"
+                    android:backgroundTintMode="multiply"/>
+            </LinearLayout>
+        </FrameLayout>
+
+
+
+
+    </RelativeLayout>
+

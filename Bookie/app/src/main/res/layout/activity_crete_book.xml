@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".CreteBook">
+
+    <EditText
+        android:padding="10dp"
+        android:layout_margin="10dp"
+        android:background="@drawable/edittext_back"
+        android:id="@+id/et_bookname"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Book Name" />
+
+    <EditText
+        android:padding="10dp"
+        android:layout_margin="10dp"
+        android:background="@drawable/edittext_back"
+        android:id="@+id/et_book_author"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Book Author" />
+
+    <ImageView
+        android:id="@+id/et_book_image"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_gravity="center"
+        android:layout_margin="20dp"
+        android:background="@drawable/book"
+        android:hint="Book Image" />
+
+
+
+    <Button
+        android:layout_gravity="center"
+        android:id="@+id/btn_create"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:fontFamily="sans-serif-light"
+        android:text="Create Book"
+        android:textAllCaps="false"
+        android:textColor="#FFF" />
+
+
+
+</LinearLayout>
